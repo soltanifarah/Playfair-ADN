@@ -1,0 +1,5 @@
+The task is to implement a Java encryption/decryption method using a hybrid approach of classical cryptography
+(Vigenere) and DNA-based cryptography (Playfair-ADN). The first step involves converting the plaintext into 8-bit binary and then into DNA form using the rule 
+(A(00),C(01),G(10),T(11)). The second step involves passing the data through an amino acid table, and in the third step, 
+the resulting text is encrypted using the Playfair algorithm with a given key. 
+The fourth step involves decrypting the ciphertext using the same Playfair-ADN algorithm.
